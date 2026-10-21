@@ -99,7 +99,7 @@
 
         .neon-btn:hover {
             background: #f0f;
-            color: #000;
+            color: #365;
             box-shadow: 0 0 20px #f0f, inset 0 0 20px #f0f;
         }
 
@@ -177,19 +177,19 @@
 
         // Cores Neon
         const colors = [
-            '#FF0055', // Rosa Choque
-            '#00FFFF', // Ciano
-            '#B400FF', // Roxo
-            '#FFFF00', // Amarelo
-            '#00FF00'  // Verde
+            '#FF0055', // Roberta Clara
+            '#00FFFF', // Roblox
+            '#B400FF', // Afonso
+            '#FFFF00', // Meu Avô
+            '#00FF00'  // Sei la
         ];
 
         // Objetos do Jogo
         const ball = {
             x: canvas.width / 2,
             y: canvas.height - 40,
-            dx: 5,
-            dy: -5,
+            dx: 15,
+            dy: -15,
             radius: 8,
             color: '#ffffff',
             glow: '#00FFFF'
@@ -197,12 +197,12 @@
 
         const paddle = {
             height: 15,
-            width: 120,
+            width: 1200,
             x: (canvas.width - 120) / 2,
             y: canvas.height - 20,
             color: '#ffffff',
             glow: '#FF00FF',
-            speed: 8,
+            speed: 25,
             dx: 0
         };
 
