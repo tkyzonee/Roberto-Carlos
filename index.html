@@ -188,8 +188,8 @@
 
         const paddle = {
             height: 15,
-            width: 120,
-            x: (canvas.width - 1200) / 2,
+            width: 1200,
+            x: (canvas.width - 120) / 2,
             y: canvas.height - 20,
             color: '#ffffff',
             glow: '#FF00FF',
@@ -404,7 +404,7 @@
             uiLayer.classList.remove("hidden");
 
             if (isWin) {
-                gameTitle.innerText = "SYSTEM HACKED";
+                gameTitle.innerText = "SISTEMA DO TRUMP HACKEADO";
                 gameTitle.style.color = "#0f0";
                 gameTitle.style.textShadow = "0 0 10px #0f0, 0 0 20px #0f0";
                 gameMessage.innerText = `Lula e Bolsonaro perderam a eleição, bob esponja ganhou! Votos finais: ${score}`;
