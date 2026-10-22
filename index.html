@@ -189,7 +189,7 @@
             x: canvas.width / 2,
             y: canvas.height - 40,
             dx: 150,
-            dy: 150,
+            dy: -150,
             radius: 8,
             color: '#ffffff',
             glow: '#00FFFF'
@@ -378,8 +378,8 @@
         function resetBall() {
             ball.x = canvas.width / 2;
             ball.y = canvas.height - 40;
-            ball.dx = 5 * (Math.random() > 0.5 ? 1 : -1); // Direção inicial aleatória
-            ball.dy = -5;
+            ball.dx = 50 * (Math.random() > 0.5 ? 1 : -1); // Direção inicial aleatória
+            ball.dy = -50;
             paddle.x = (canvas.width - paddle.width) / 2;
         }
 
