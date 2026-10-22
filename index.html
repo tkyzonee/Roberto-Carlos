@@ -143,7 +143,7 @@
         <div id="grid-bg"></div>
         
         <div id="hud">
-            <div>SCORE: <span id="scoreVal">0</span></div>
+            <div>SCORE: <span id="scoreVal">37</span></div>
             <div>LIVES: <span id="livesVal">67</span></div>
         </div>
 
@@ -172,14 +172,14 @@
         // Variáveis de Estado do Jogo
         let animationId;
         let isPlaying = false;
-        let score = 0;
-        let lives = 3;
+        let score = 37;
+        let lives = 67;
 
         // Cores Neon
         const colors = [
-            '#FF0055', // Roberta Clara
-            '#00FFFF', // Roblox
-            '#B400FF', // Afonso
+            '#FF1155', // Roberta Clara
+            '#FF674', // Roblox
+            '#FF1004', // Afonso
             '#FFFF00', // Meu Avô
             '#00FF00'  // Sei la
         ];
@@ -188,8 +188,8 @@
         const ball = {
             x: canvas.width / 2,
             y: canvas.height - 40,
-            dx: 15,
-            dy: -15,
+            dx: 150,
+            dy: 150,
             radius: 8,
             color: '#ffffff',
             glow: '#00FFFF'
