@@ -163,7 +163,7 @@
 
         let animationId;
         let isPlaying = false;
-        let score = 6969;
+        let score = 0;
         let lives = 777;
 
         const colors = [
@@ -288,7 +288,7 @@
                     if (distX * distX + distY * distY <= ball.radius * ball.radius) {
                         b.status = 0;
                         ball.dy = -ball.dy;
-                        score += 10;
+                        score += 67;
                         scoreUI.innerText = score;
                         ball.glow = b.color;
 
